@@ -1,2 +1,7 @@
-# catan-receipts
-A means of pulling data from Settlers of Catan plays, and pushing it out to a receipt printer
+# Catan Receipts
+A Python script that pulls data from Google Sheets, formats it, and inserts it into custom-made HTML and CSS for printing with [Adafruit's Mini Thermal Receipt Printer](https://www.adafruit.com/products/597). The structure of the main file is directly based on my own Google Sheet that contains all of the data I've collected from Settlers of Catan plays, as seen [here](http://bit.ly/FederationOfCatan2).
+
+Printing is done on a Raspberry Pi 3 using CUPS with [klirichek's zj-58 filter](https://github.com/klirichek/zj-58).
+
+### Dependencies
+The data collection from Google Sheets is done using [gspread](https://github.com/burnash/gspread), and the graphs are created using [Plotly](https://plot.ly/).
