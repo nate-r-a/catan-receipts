@@ -4,4 +4,4 @@ A Python script that pulls data from Google Sheets, formats it, and inserts it i
 Printing is done on a Raspberry Pi 3 using CUPS with [klirichek's zj-58 filter](https://github.com/klirichek/zj-58).
 
 ### Dependencies
-The data extraction from Google Sheets is done using [gspread](https://github.com/burnash/gspread), and the graphs are created using [Plotly](https://plot.ly/).
+The data extraction from Google Sheets is done using [gspread](https://github.com/burnash/gspread), and the graphs are created using [Plotly](https://plot.ly/). Conversion of the created webpage to bitmap is done using [wkhtmltoimage](http://wkhtmltopdf.org/) and Python Imaging Library.
