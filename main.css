@@ -1,0 +1,275 @@
+* {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.html {
+	width: 384px;
+}
+
+@media print {
+	.game-id {
+		display: none;
+	}
+
+	.receipt {
+		outline: none !important;
+	}
+}
+
+.receipt {
+	outline: 1px solid red;
+	width: 384px;
+	margin: 0 auto;
+}
+
+.game-id-form {
+	text-align: center;
+	margin: 10px 0 10px 0;
+}
+
+/*.game-number {
+	text-align: center;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 150%;
+	margin: 0 6% 0 6%;
+	display: inline-block;
+}*/
+/*.top-container:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}*/
+
+.game-number-container {
+/*	width: 50%;*/
+	margin: 8px 0 0 0;
+/*	padding:  0 10px 10px 3px;*/
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+/*	font-size: 260%;*/
+	text-align: center;
+/*	border-style: dotted;
+	border-width: 1px;*/
+}
+
+.title-container {
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 160%; /*160% when not using wkhtmltoimage*/
+	font-weight: 900;
+	text-align: center;
+	padding: 0 3px 0 3px;
+	float: left;
+	border: dotted;
+	border-width: 3px;
+}
+
+.player-score-container {
+	font-weight: 500;
+	font-size: 275%;
+	padding: 0 16% 0 16%;
+	width: 100%;
+	overflow: hidden;
+	/*font-family: 'Rubik', sans-serif;*/
+}
+
+.player-name {
+	width: 75%;
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+}
+
+.player-score {
+	width: 25%;
+	text-align: right; 
+	float: right;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+}
+
+.player-rating {
+	font-weight: 500;
+	padding: 0 0 0 20%;
+	line-height: 1;
+	margin-top: -5px;
+	margin-bottom: 0;
+	font-size: 180%;
+}
+
+.arrow {
+	height: 15px;
+	width: auto;
+}
+
+.collusion {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 125%;
+	height: 65px;
+	display: flex;
+	align-items: center;
+	margin: 0 2% 0 2%;
+	border: 3px solid;
+	border-radius: 5px;
+	padding: 11px; /*Add padding as needed for wkhtmltoimage*/
+
+}
+
+.collusion-sign {
+	max-width: 100%;
+	max-height: 100%;
+	margin-right: 8px;
+	float: left;
+}
+
+.collusion-text {
+	font-family: "Lucida Console", Monaco, monospace;
+	vertical-align: middle;
+	/*padding-top: 3px;*/
+}
+
+.subtitle {
+/*	border-bottom: solid;
+	border-width: 2px;*/
+	text-align: center;
+	margin: 0 20px 0 20px;
+	font-size: 200%;
+	/*font-family: 'Rubik', sans-serif;*/
+	font-weight: 500;
+}
+
+.dice-rolls {
+	text-align: center;
+	font-size: 115%;
+}
+
+.dice-roll-chart {
+	width: 365px;
+	height: 300px;
+	align-content: center;
+}
+
+.resource-locations {
+	width: 100%;
+	align-content: center;
+	font-weight: bold;
+}
+
+.resources-chart {
+	text-align: center;
+	margin-top: 11px;
+}
+
+.leaderboard {
+	padding-left: 9%;
+	padding-right: 14%;
+	font-size: 230%;
+	font-weight: 700;
+}
+
+.leader-name {
+	width: 75%;
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+.leader-score {
+	width: 25%;
+	text-align: right; 
+	float: right;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+/*.leaderboard-names {
+	float: left;
+	width: 50%;
+	margin: 0;
+	font-size: 150%;
+	padding: 0 0 0 10%;
+}
+
+.leaderboard-scores {
+	float: right;
+	width: 50%;
+	margin: 0;
+	font-size: 150%;
+	padding: 0 10% 0 0;
+}*/
+
+/*p.fulljustify {
+  text-align: justify;
+  height: 1.5em;
+  line-height: 1em;
+}
+
+p.fulljustify:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 0;
+}*/
+
+p {
+
+	/*padding-left: 10px;*/
+}
+
+
+p.underline {
+	border-bottom: solid;
+	border-width: 2px;
+	padding: 0 0 3px 0;
+	margin: 0 5px 0 5px;
+}
+
+p.title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 170%;
+	font-weight: 900;
+	margin: 0 0 -15px 0;
+}
+
+p.title-bottom {
+	font-family: 'Raleway', sans-serif;
+	font-size: 180%;
+	font-weight: 900;
+	margin: 0;
+}
+
+p.game-number {
+	font-family: 'Raleway', sans-serif;
+	font-size: 180%;
+	font-weight: 500;
+	margin: 14px 0 3px 0;
+	padding-top: 10px;
+}
+
+p.roll-list {
+	margin: 0;
+	padding: 0 20px;
+}
+
+p.locations {
+	font-size: 150%;
+	margin: 0;
+	text-align: center;
+}
+
+
+
+br {
+	line-height: 170%;
+}
+
+br.leaderboard-date {
+	line-height: 0;
+}
